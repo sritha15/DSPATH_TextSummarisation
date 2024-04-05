@@ -2,6 +2,6 @@
 
 In Summer 2023, I was selected as a scholar for the Data Science Summer Fellowship at UC Riverside, a program funded by the National Science Foundation (NSF).  I worked on a research-oriented project that was inspired by the research paper “Small Models are Valuable Plug-ins for Large Language Models” with esteemed Professor Mariam Salloum and Professor Kevin Esterling of UC Riverside. This project focussed on creating a text summarisation tool and testing the hypothesis of the research paper on the summarisation task. During this project, I got to work with Google Cloud Platform, Large Language Models (Google PaLM2), and Small Language Models. Our goal was to create a hybrid model, by integrating the text summarization results from two smaller models and then fine-tuning PaLM2 with these results to see if it enhances PaLM’s summarization capability. We created a Text Summarization Tool using a large language model (LLM), text-bison-001 (Google PaLM), complemented by two other models renowned for extractive and abstractive summarization techniques, namely BanditSum and Fast-Abs-RL. For this project, we employed the CNN-DailyMail dataset. And then we used the summaries generated from the small models and their scores to create a new dataset ”context” to fine-tune PaLM with it and evaluated the performance of the PaLM vs fine-tuned PaLM vs fine-tuned PaLM for refine summary task.
 
-#Link to datasets:
+# Link to datasets:
 
 https://drive.google.com/drive/folders/1GxplWq5DWU3drkLzWv2QucpPRMnGtfSC?usp=share_link
